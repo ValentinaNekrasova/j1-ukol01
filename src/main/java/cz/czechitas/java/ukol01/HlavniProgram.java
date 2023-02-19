@@ -9,15 +9,17 @@ public class HlavniProgram {
 
         //TODO implementace domácího úkolu
 
-        zofka.setLocation(600,350);
+        /*zofka.setLocation(600,350);
 
         nakresliPrasatko(zofka);
 
         zofka.setLocation(85,85);
 
-        nakresliSlunicko(zofka);
+        nakresliSlunicko(zofka);*/
 
-        /*nakresliKyticku(zofka);*/
+        zofka.setLocation(500,200);
+
+
 
     }
 
@@ -28,17 +30,6 @@ public class HlavniProgram {
             zofka.move(30);
             zofka.move(-30);
             zofka.turnRight(90+20);
-        }
-    }
-
-    private static void nakresliKyticku(Turtle zofka) {
-        for (int i = 0; i < 11; i++) {
-            zofka.move(5);
-            zofka.turnLeft(90);
-            zofka.move(25);
-            zofka.turnRight(180);
-            zofka.move(25);
-            zofka.turnRight(8);
         }
     }
 
