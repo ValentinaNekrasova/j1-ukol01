@@ -9,13 +9,13 @@ public class HlavniProgram {
 
         //TODO implementace domácího úkolu
 
-        /*zofka.setLocation(600,350);
+        zofka.setLocation(600,350);
 
         nakresliPrasatko(zofka);
 
         zofka.setLocation(85,85);
 
-        nakresliSlunicko(zofka);*/
+        nakresliSlunicko(zofka);
 
         zofka.setLocation(500,200);
 
