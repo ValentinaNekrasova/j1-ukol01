@@ -9,9 +9,37 @@ public class HlavniProgram {
 
         //TODO implementace domácího úkolu
 
+        zofka.setLocation(600,350);
+
         nakresliPrasatko(zofka);
 
-        zofka.setLocation(80,80);
+        zofka.setLocation(85,85);
+
+        nakresliSlunicko(zofka);
+
+        /*nakresliKyticku(zofka);*/
+
+    }
+
+    private static void nakresliSlunicko(Turtle zofka) {
+        for (int i = 0; i < 18; i++) {
+            zofka.move(15);
+            zofka.turnLeft(90);
+            zofka.move(30);
+            zofka.move(-30);
+            zofka.turnRight(90+20);
+        }
+    }
+
+    private static void nakresliKyticku(Turtle zofka) {
+        for (int i = 0; i < 11; i++) {
+            zofka.move(5);
+            zofka.turnLeft(90);
+            zofka.move(25);
+            zofka.turnRight(180);
+            zofka.move(25);
+            zofka.turnRight(8);
+        }
     }
 
     private static void nakresliPrasatko(Turtle zofka) {
